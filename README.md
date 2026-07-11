@@ -133,7 +133,7 @@ https://github.com/AmitSharma9754/Restaurant-Review-Sentiment-Analysis
 
 **Clone using Git:**
 git clone https://github.com/AmitSharma9754/Restaurant-Review-Sentiment-Analysis.git
-cd Mall Customer Segmentation
+cd Restaurant Review Sentiment Analysis
 
 ### Install Dependencies
 

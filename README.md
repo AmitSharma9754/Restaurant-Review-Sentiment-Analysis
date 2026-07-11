@@ -74,18 +74,6 @@ Restaurant-Review-Sentiment-Analysis/
 
 ---
 
-### Preprocessing Steps
-
-- **Text Cleaning**: Remove special characters and noise
-- **Lowercase Conversion**: Standardize text format
-- **Punctuation Removal**: Eliminate non-alphabetic characters
-- **Stopword Removal**: Remove common words (the, is, at, etc.)
-- **Porter Stemming**: Reduce words to root form
-- **Bag of Words**: Convert text to numerical features
-- **SVM Classification**: Predict sentiment label
-
----
-
 ## 🤖 Machine Learning Algorithm
 
 ### Algorithm Used
@@ -97,16 +85,7 @@ Restaurant-Review-Sentiment-Analysis/
 - Training Set: 800 reviews
 - Testing Set: 200 reviews
 - Feature Extraction: Bag of Words (Count Vectorizer)
-
-### Model Evaluation Metrics
-
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
-- Classification Report
-
+  
 ---
 
 ## 📈 Model Performance
@@ -117,31 +96,6 @@ Restaurant-Review-Sentiment-Analysis/
 | **Precision** | 79% |
 | **Recall** | 79% |
 | **F1-Score** | 79% |
-
----
-
-## 🖥️ Dashboard Modules
-
-| Module | Description |
-|--------|-------------|
-| Sentiment Prediction | Enter review text and predict sentiment |
-| Dataset Analytics | View dataset statistics and distribution |
-| Visualizations | Pie Chart, Histogram, Scatter Plot |
-| Word Analysis | Average Word Count, Top Keywords |
-| Model Performance | Confusion Matrix, Classification Report |
-| Developer Info | Project details and contact |
-
----
-
-## 📉 Data Visualizations
-
-- **Pie Chart**: Positive vs Negative review distribution
-- **Histogram**: Review length distribution
-- **Scatter Plot**: Word count vs sentiment
-- **Confusion Matrix**: Model prediction accuracy
-- **Classification Report**: Precision, Recall, F1-Score per class
-- **Top Keywords**: Most frequent words in reviews
-- **Average Word Count**: Statistics on review length
 
 ---
 

@@ -1,4 +1,4 @@
-# 🍽️ Restaurant Review Sentiment Analysis
+# Restaurant Review Sentiment Analysis
 
 *A Machine Learning and NLP-Based Sentiment Classification System*
 
@@ -17,7 +17,7 @@ The system uses **Natural Language Processing**, **Text Preprocessing**, **Bag o
 
 ---
 
-## ✨ Features
+## Features
 
 - Sentiment Prediction using SVM
 - Interactive Streamlit Dashboard
@@ -32,7 +32,7 @@ The system uses **Natural Language Processing**, **Text Preprocessing**, **Bag o
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Restaurant-Review-Sentiment-Analysis/
@@ -48,7 +48,7 @@ Restaurant-Review-Sentiment-Analysis/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.x
 - Streamlit
@@ -62,7 +62,7 @@ Restaurant-Review-Sentiment-Analysis/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Feature | Details |
 |---------|---------|
@@ -74,7 +74,7 @@ Restaurant-Review-Sentiment-Analysis/
 
 ---
 
-## 🤖 Machine Learning Algorithm
+## Machine Learning Algorithm
 
 ### Algorithm Used
 
@@ -88,7 +88,7 @@ Restaurant-Review-Sentiment-Analysis/
   
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Metric | Score |
 |--------|-------|
@@ -99,7 +99,7 @@ Restaurant-Review-Sentiment-Analysis/
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### Step 1
 
@@ -149,7 +149,7 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Home Page
 
@@ -179,7 +179,7 @@ streamlit run app.py
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Deploy on Streamlit Cloud
 - Add BERT/Transformer-based models
@@ -191,7 +191,7 @@ streamlit run app.py
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is developed strictly for **educational and learning purposes**.
 
@@ -199,7 +199,7 @@ The sentiment predictions are generated using a machine learning model and shoul
 
 ---
 
-## 🌟 Project Highlights
+## Project Highlights
 
 - Machine Learning Project
 - Natural Language Processing
@@ -211,15 +211,13 @@ The sentiment predictions are generated using a machine learning model and shoul
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Amit Sharma**
 
 B.Tech Artificial Intelligence Student
 
-- 📧 Email: [Amitsharma97545@gmail.com](mailto:Amitsharma97545@gmail.com)
-- 💻 GitHub: [https://github.com/AmitSharma9754](https://github.com/AmitSharma9754)
+- Email: [Amitsharma97545@gmail.com](mailto:Amitsharma97545@gmail.com)
+- GitHub: [https://github.com/AmitSharma9754](https://github.com/AmitSharma9754)
 
 ---
-
-**Machine Learning | NLP | Python | Streamlit**

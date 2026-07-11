@@ -75,23 +75,59 @@ Restaurant-Review-Sentiment-Analysis/
 ---
 
 ## ⚙️ NLP Pipeline
-Review Text
-↓
-Text Cleaning
-↓
-Lowercase Conversion
-↓
-Punctuation Removal
-↓
-Stopword Removal
-↓
-Porter Stemming
-↓
-Bag of Words Vectorization
-↓
-Support Vector Machine (SVM)
-↓
-Sentiment Prediction (Positive/Negative)
+
+### Pipeline Flow (Vertical)
+┌─────────────────────────────┐
+│ Review Text Input │
+└──────────────┬──────────────┘
+│
+▼
+┌─────────────────────────────┐
+│ Text Cleaning │
+│ (Remove special chars) │
+└──────────────┬──────────────┘
+│
+▼
+┌─────────────────────────────┐
+│ Lowercase Conversion │
+│ (Convert to lowercase) │
+└──────────────┬──────────────┘
+│
+▼
+┌─────────────────────────────┐
+│ Punctuation Removal │
+│ (Remove non-alphabetic) │
+└──────────────┬──────────────┘
+│
+▼
+┌─────────────────────────────┐
+│ Stopword Removal │
+│ (Remove the, is, at...) │
+└──────────────┬──────────────┘
+│
+▼
+┌─────────────────────────────┐
+│ Porter Stemming │
+│ (Reduce to root form) │
+└──────────────┬──────────────┘
+│
+▼
+┌─────────────────────────────┐
+│ Bag of Words │
+│ (Count Vectorizer) │
+└──────────────┬──────────────┘
+│
+▼
+┌─────────────────────────────┐
+│ SVM Classifier │
+│ (RBF Kernel) │
+└──────────────┬──────────────┘
+│
+▼
+┌─────────────────────────────┐
+│ Sentiment Prediction │
+│ (Positive / Negative) │
+└─────────────────────────────┘
 
 
 ### Preprocessing Steps

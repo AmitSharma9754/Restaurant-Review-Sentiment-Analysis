@@ -1,48 +1,80 @@
 # 🍽️ Restaurant Review Sentiment Analysis
 
-A Machine Learning and Natural Language Processing (NLP) project that predicts whether a restaurant review is **Positive** or **Negative** using a Support Vector Machine (SVM) classifier.
+*A Machine Learning and NLP-Based Sentiment Classification System*
 
----
+This project is a **Streamlit-powered Sentiment Analysis System** that classifies restaurant reviews as **Positive** or **Negative** using a **Support Vector Machine (SVM)** classifier with **Bag of Words** feature extraction.
 
-## 🚀 Features
+The application provides:
 
-- Predict restaurant review sentiment
-- Natural Language Processing (NLP)
-- Text preprocessing pipeline
-- Bag of Words feature extraction
-- Support Vector Machine (SVM) classifier
+- Real-time sentiment prediction
 - Interactive Streamlit dashboard
-- Dataset visualization
-- Model performance metrics
-- Confusion Matrix
-- Classification Report
+- Complete NLP preprocessing pipeline
+- Model performance visualization
+- Dataset analytics and insights
+- Modern responsive UI
+
+The system uses **Natural Language Processing**, **Text Preprocessing**, **Bag of Words Vectorization**, and **Interactive Visualizations** to analyze customer feedback and predict review sentiment.
 
 ---
 
-## 🛠️ Technologies Used
+## ✨ Features
 
-- Python
+- Sentiment Prediction using SVM
+- Interactive Streamlit Dashboard
+- Text Preprocessing Pipeline (Lowercase, Punctuation Removal, Stopword Removal, Porter Stemming)
+- Bag of Words Feature Extraction
+- Dataset Visualization (Pie Chart, Histogram, Scatter Plot)
+- Model Performance Metrics (Accuracy, Precision, Recall, F1-Score)
+- Confusion Matrix & Classification Report
+- Top Keywords Analysis
+- Average Word Count Statistics
+- Modern Responsive UI
+
+---
+
+## 📁 Project Structure
+
+```text
+Restaurant-Review-Sentiment-Analysis/
+│
+├── app.py
+├── Restaurant_Reviews.tsv
+├── svm_model.pkl
+├── vectorizer.pkl
+├── Restaurant_Review_NLP.ipynb
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.x
 - Streamlit
-- Scikit-learn
+- Scikit-Learn
 - NLTK
 - Pandas
 - NumPy
-- Plotly
 - Matplotlib
+- Plotly
+- Joblib
 
 ---
 
-## 📂 Dataset
+## 📊 Dataset
 
-- **Dataset:** Restaurant_Reviews.tsv
-- Total Reviews: **1000**
-- Training Samples: **800**
-- Testing Samples: **200**
+| Feature | Details |
+|---------|---------|
+| **Dataset File** | Restaurant_Reviews.tsv |
+| **Total Reviews** | 1000 |
+| **Training Samples** | 800 |
+| **Testing Samples** | 200 |
+| **Labels** | Positive / Negative |
 
 ---
 
 ## ⚙️ NLP Pipeline
-
 Review Text
 ↓
 Text Cleaning
@@ -55,62 +87,127 @@ Stopword Removal
 ↓
 Porter Stemming
 ↓
-Bag of Words
+Bag of Words Vectorization
 ↓
-Support Vector Machine
+Support Vector Machine (SVM)
 ↓
-Sentiment Prediction
+Sentiment Prediction (Positive/Negative)
+
+
+### Preprocessing Steps
+
+- **Text Cleaning**: Remove special characters and noise
+- **Lowercase Conversion**: Standardize text format
+- **Punctuation Removal**: Eliminate non-alphabetic characters
+- **Stopword Removal**: Remove common words (the, is, at, etc.)
+- **Porter Stemming**: Reduce words to root form
+- **Bag of Words**: Convert text to numerical features
+- **SVM Classification**: Predict sentiment label
 
 ---
 
-## 📊 Model Performance
+## 🤖 Machine Learning Algorithm
 
-| Metric | Score |
-|---------|-------|
-| Accuracy | **78.5%** |
-| Precision | **79%** |
-| Recall | **79%** |
-| F1-Score | **79%** |
+### Algorithm Used
 
----
+- **Support Vector Machine (SVM)** with linear Kernel
 
-## 📸 Dashboard
+### Model Training
 
-The Streamlit dashboard includes:
+- Training Set: 800 reviews
+- Testing Set: 200 reviews
+- Feature Extraction: Bag of Words (Count Vectorizer)
 
-- Sentiment Prediction
-- Dataset Analytics
-- Pie Chart
-- Histogram
-- Scatter Plot
-- Average Word Count
-- Top Keywords
+### Model Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
 - Confusion Matrix
 - Classification Report
 
 ---
 
-## ▶️ Run the Project
+## 📈 Model Performance
 
-Clone the repository
+| Metric | Score |
+|--------|-------|
+| **Accuracy** | 78.5% |
+| **Precision** | 79% |
+| **Recall** | 79% |
+| **F1-Score** | 79% |
 
-```bash
-git clone https://github.com/yourusername/Restaurant-Review-Sentiment-Analysis.git
-```
+---
 
-Go to project directory
+## 🖥️ Dashboard Modules
 
-```bash
-cd Restaurant-Review-Sentiment-Analysis
-```
+| Module | Description |
+|--------|-------------|
+| Sentiment Prediction | Enter review text and predict sentiment |
+| Dataset Analytics | View dataset statistics and distribution |
+| Visualizations | Pie Chart, Histogram, Scatter Plot |
+| Word Analysis | Average Word Count, Top Keywords |
+| Model Performance | Confusion Matrix, Classification Report |
+| Developer Info | Project details and contact |
 
-Install dependencies
+---
+
+## 📉 Data Visualizations
+
+- **Pie Chart**: Positive vs Negative review distribution
+- **Histogram**: Review length distribution
+- **Scatter Plot**: Word count vs sentiment
+- **Confusion Matrix**: Model prediction accuracy
+- **Classification Report**: Precision, Recall, F1-Score per class
+- **Top Keywords**: Most frequent words in reviews
+- **Average Word Count**: Statistics on review length
+
+---
+
+## 🚀 How to Use
+
+### Step 1
+
+Navigate to the **Sentiment Prediction** tab
+
+### Step 2
+
+Enter or paste a restaurant review
+
+### Step 3
+
+Click **Predict Sentiment**
+
+### Step 4
+
+The application displays:
+
+- Predicted Sentiment (Positive/Negative)
+- Confidence Score
+- Review Analysis
+
+---
+
+## Installation & Setup
+
+### Clone the Repository
+
+**Repository Link:**
+
+https://github.com/AmitSharma9754/Restaurant-Review-Sentiment-Analysis
+
+**Clone using Git:**
+git clone https://github.com/AmitSharma9754/Restaurant-Review-Sentiment-Analysis.git
+cd Mall Customer Segmentation
+
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Streamlit
+### Run the Application
 
 ```bash
 streamlit run app.py
@@ -118,10 +215,92 @@ streamlit run app.py
 
 ---
 
-## 👨‍💻 Developer
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](https://github.com/user-attachments/assets/ea0a432d-ac28-4a1b-b525-640f98089bf3
+)
+
+---
+
+### Sentiment Prediction
+
+![Prediction](https://github.com/user-attachments/assets/a564633c-a2b5-4996-82bc-c501c8a284ba
+)
+
+---
+
+### Visualizations Dashboard
+
+![Dashboard](https://github.com/user-attachments/assets/5fb34cfa-cefd-41e4-9ed0-c294d565ac6d
+)
+
+---
+
+### Model Performance Metrics
+
+![Model Metrics](https://github.com/user-attachments/assets/c7f0cbb4-a2f9-4b34-8447-d1bfff828d65
+)
+
+---
+
+## 🔮 Future Improvements
+
+- Deploy on Streamlit Cloud
+- Add BERT/Transformer-based models
+- Multi-class sentiment (Positive, Neutral, Negative)
+- Real-time API integration
+- Download prediction reports
+- Advanced NLP features (NER, Topic Modeling)
+- Support for multiple languages
+
+---
+
+## ⚠️ Disclaimer
+
+This project is developed strictly for **educational and learning purposes**.
+
+The sentiment predictions are generated using a machine learning model and should be considered **analytical insights** rather than definitive assessments.
+
+---
+
+## 🤝 Contribution
+
+You can contribute by:
+
+- Improving model accuracy
+- Enhancing UI/UX
+- Adding more visualizations
+- Implementing advanced NLP techniques
+- Fixing bugs
+- Adding new features
+
+Pull requests are welcome!
+
+---
+
+## 🌟 Project Highlights
+
+- Machine Learning Project
+- Natural Language Processing
+- SVM Classification
+- Sentiment Analysis
+- Streamlit Web Application
+- Interactive Dashboard
+- Portfolio & Resume Ready Project
+
+---
+
+## 📧 Contact
 
 **Amit Sharma**
 
 B.Tech Artificial Intelligence Student
 
-Machine Learning | NLP | Python | Streamlit
+- 📧 Email: [Amitsharma97545@gmail.com](mailto:Amitsharma97545@gmail.com)
+- 💻 GitHub: [https://github.com/AmitSharma9754](https://github.com/AmitSharma9754)
+
+---
+
+**Machine Learning | NLP | Python | Streamlit**

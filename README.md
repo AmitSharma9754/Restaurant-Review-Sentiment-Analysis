@@ -199,21 +199,6 @@ The sentiment predictions are generated using a machine learning model and shoul
 
 ---
 
-## 🤝 Contribution
-
-You can contribute by:
-
-- Improving model accuracy
-- Enhancing UI/UX
-- Adding more visualizations
-- Implementing advanced NLP techniques
-- Fixing bugs
-- Adding new features
-
-Pull requests are welcome!
-
----
-
 ## 🌟 Project Highlights
 
 - Machine Learning Project
